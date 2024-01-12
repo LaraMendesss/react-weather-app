@@ -5,10 +5,13 @@ import Weather from "./Weather";
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather Search Engine</h1>
-
-      <Weather />
-      <footer>This Weather App was coded by Lara Mendes and it's opened source on my <a href="https://github.com/LaraMendesss/react-weather-app" title="Lara GitHub account">Github</a>. </footer>
-    </div>
+        <div className="box">
+      <h1>My React Weather App</h1>
+     <Weather />
+     
+      </div>
+      <footer> Coded by <a href="https://github.com/LaraMendesss" target="_blank" without rel="noreferrer">Lara Mendes</a>, 
+      open-sourced on <a href="https://github.com/LaraMendesss/react-weather-app" target="_blank" without rel="noreferrer">GitHub</a> and hosted on <a href="https://react-weather-app-lara.netlify.app/" target="_blank" without rel="noreferrer">Netlify</a>🤍</footer>
+     </div>
   );
 }

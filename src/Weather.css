@@ -1,36 +1,41 @@
+
 li {
     list-style: none;
     line-height: 2;
   }
   
   ul {
-    padding: 10px;
+   
     color: grey;
     border-radius: 10px;
     font-weight: bold;
   }
   .description {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 35px;
     color: grey;
-    margin: 30px 500px;
+   margin-top: 40px;
+   text-align: left;
+   margin-left: 50px;
   }
   img {
     display: block;
     margin: 0 auto;
-    padding: 30px 0;
+  
   }
   .city {
     margin-top: 50px;
     font-size: 40px;
-    color: blue;
+    color:rgb(0, 111, 255);
     margin-bottom: 10px;
   }
   .submit {
-    background-color: blue;
+    background-color: grey;
     color: white;
     padding: 10px;
-    border-color: blue;
+    border-color: grey;
+    opacity: 80%;
   }
   
   input {
@@ -42,4 +47,30 @@ li {
   .search {
     margin-right: 20px;
   }
-  
+  form{
+    display: flex;
+    justify-content: left;
+    margin-left: 60px;
+    
+  }
+  .temperature{
+    font-size: 70px;
+    color: rgb(136, 134, 134);
+    padding-top: 10px;
+    margin-right: 50px;
+  }
+  .units{
+    vertical-align:super;
+    font-size: 35px;
+    text-align: left;
+    padding-top: 10px;
+  }
+  .text{
+    color:rgb(0, 111, 255);
+    font-size: 20px;
+  }
+  .humidity{
+    font-size: 14px;
+    color: grey;
+    opacity: 80%;
+  }

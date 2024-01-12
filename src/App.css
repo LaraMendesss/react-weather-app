@@ -1,11 +1,39 @@
-.App {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("photos/nyc.jpg");
+ background-repeat: no-repeat;
+  background-size:cover;
   font-family: sans-serif;
   text-align: center;
 }
+
+.box {
+  text-align: center;
+  display: block;
+  margin: 220px auto 5px auto;
+  padding-top: 10px;
+  border-color: rgb(0, 111, 255);
+  border-style: solid 80%;
+  border-width: 4px;
+  border-radius: 10px;
+  width: 700px;
+  height: 370px;
+  background: white;
+}
 h1 {
-  color: blue;
-  font-size: 50px;
-  margin: 60px;
+  color: grey;
+  font-size: 35px;
+  margin: 30px auto 30px 50px;
+  
+  text-align: left;
 }
 footer{
-  font-size: 13px;}
+  font-size: 13px;
+  
+margin-top: 10px;
+color: white;
+}
+a{
+  color: white;
+  font-weight: bold;
+}
