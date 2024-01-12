@@ -1,25 +1,14 @@
+import "./App.css";
 
-import './App.css';
-import Weather from './Weather';
+import Weather from "./Weather";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-     
-        <Weather />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-       
-      </header>
+      <h1>Weather Search Engine</h1>
+
+      <Weather />
+      <footer>This Weather App was coded by Lara Mendes and it's opened source on my <a href="https://github.com/LaraMendesss/react-weather-app" title="Lara GitHub account">Github</a>. </footer>
     </div>
   );
 }
-
-export default App;
